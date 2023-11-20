@@ -1,0 +1,88 @@
+.SignupPage {
+    /* Add any styles for the page container */
+  }
+  
+  /* Style the centering for login elements */
+  .signupCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style the container for login elements */
+  .signupContainer {
+    width: 80%; /* Adjust the width */
+    max-width: 400px; /* Set a maximum width */
+  }
+  
+  /* Style the rectangle */
+  .rectangle {
+    border: 1px solid #ccc;
+    padding: 3em; /* Increase the padding */
+    border-radius: 1em; /* Increase the border radius */
+    background-color: #fff;
+    position: relative;
+  }
+
+/* Style the logo */
+.logo-signup {
+    width: 15%; /* Set the logo size */
+    padding-top: 15%; /* Maintain aspect ratio */
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: -7.5%; /* Adjust positioning */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
+  }
+  
+  
+  /* Style the text elements */
+  .text {
+    margin-top: 1.5em; /* Increase the margin between elements */
+    font-size: 1.2em; /* Increase the font size */
+  }
+  
+  /* Style the input fields */
+  .inputField {
+    width: calc(100% - 1em); /* Adjust input width considering padding */
+    margin-top: 1em; /* Increase the margin */
+    padding: 1em; /* Increase the padding */
+    font-size: 1em; /* Increase the font size */
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+  }
+  
+  /* Style the login button */
+  .signupButton {
+    width: 100%;
+    margin-top: 1.5em; /* Increase the margin */
+    padding: 1em; /* Increase the padding */
+    font-size: 1.2em; /* Increase the font size */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+  }
+  
+  /* Style the forgot password link */
+  .forgotPassword {
+    margin-top: 1em; /* Increase the margin */
+    font-size: 1em; /* Increase the font size */
+    text-align: center;
+  }
+
+  .text-welcome {
+    margin-top: 1em; /* Increase the margin */
+    font-size: 2em; /* Increase the font size */
+    text-align: center;
+  }
+
+  .text-subtitle{
+    margin-top: 1em; /* Increase the margin */
+    font-size: 1em; /* Increase the font size */
+    text-align: center !important;
+  }
+  

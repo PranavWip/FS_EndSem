@@ -1,0 +1,81 @@
+.ProfilePage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* 100% of viewport height */
+  }
+  
+  .twoColumns {
+    display: flex;
+    flex: 1; /* Fill remaining vertical space */
+  }
+  
+  .leftColumn {
+    width: 30%;
+    background-color: #f2f2f2; /* Grey background */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rightColumn {
+    width: 70%;
+    background-color: white; /* White background */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styles for elements inside columns */
+  
+  .circularProfileLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px; /* Adjust the width */
+    height: 150px; /* Adjust the height */
+    border-radius: 50%; /* Make the container circular */
+    overflow: hidden; /* Hide overflowing content */
+    background-color: #ccc; /* Placeholder background color */
+    margin-bottom: 20px; /* Add space between elements */
+  }
+  
+  .circularProfileLogo img {
+    width: 100%; /* Fill the container */
+    height: auto;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 50%; /* Ensure the image remains circular */
+  }
+  
+  .editProfileButton {
+    margin-left: auto; /* Move the button to the right */
+    background-color: black; /* Black button background */
+    color: white; /* Text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  
+  .username,
+  .userId {
+    text-align: left;
+    margin-left: 20px; /* Adjust as needed */
+    color: black; /* Text color */
+  }
+  
+  .profileInfo {
+    padding: 20px;
+    flex-grow: 1; /* Fill remaining vertical space */
+  }
+  
+  .personalInfoRectangle,
+  .userModelsRectangle,
+  .userChatsRectangle {
+    /* Style for Rectangular Zones */
+    background-color: #e5e5e5; /* Shaded grey background */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    flex-grow: 1; /* Fill remaining vertical space */
+  }
+  

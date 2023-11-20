@@ -1,0 +1,76 @@
+.ModelPage {
+    /* Style the ModelPage container */
+    /* Add styles as needed */
+  }
+  
+  .centeredContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+    color: black; /* Text color */
+  }
+  
+  .logo {
+    /* Style for circular logo image */
+    /* Add styles as needed */
+    /* Example: */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black; /* Example background color */
+  }
+  
+  .formContainer {
+    width: 50%; /* Adjust the width as needed */
+    margin-top: 20px; /* Adjust spacing */
+  }
+  
+  .boundary {
+    border: 1px solid black; /* Border for enclosing rectangle */
+    padding: 20px; /* Padding inside the rectangle */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #f2f2f2; /* Background color for the rectangle */
+  }
+  
+  .inputContainer {
+    margin-bottom: 20px; /* Adjust spacing between inputs */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black; /* Text color */
+  }
+  
+  input[type='text'],
+  select,
+  textarea {
+    width: calc(100% - 18px); /* Adjusted width for input elements */
+    padding: 8px;
+    border: 1px solid #999; /* Grey border */
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+    color: black; /* Text color */
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white; /* Text color */
+  }
+  
+  .createButton {
+    background-color: black; /* Black button background */
+  }
+  
+  .cancelButton {
+    background-color: #999; /* Grey button background */
+  }
+  

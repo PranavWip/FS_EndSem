@@ -1,0 +1,88 @@
+/* EditProfilePage container */
+.EditProfilePage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Two-column layout */
+  .twoColumns {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Left Column styles */
+  .leftColumn {
+    width: 30%;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Circular Profile Logo styles */
+  .circularProfileLogo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* User Info styles */
+  .userInfo p {
+    margin: 5px 0;
+  }
+  
+  /* Right Column styles */
+  .rightColumn {
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Edit Profile Title */
+  .rightColumn h2 {
+    color: black;
+  }
+  
+  /* Input field styles */
+  .inputField {
+    margin-bottom: 15px;
+  }
+  
+  input[type='text'],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+  }
+  
+  /* Button row styles */
+  .buttonRow {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .uploadButton,
+  .saveButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .uploadButton {
+    background-color: black;
+    color: white;
+  }
+  
+  .saveButton {
+    background-color: grey;
+    color: white;
+  }
+  

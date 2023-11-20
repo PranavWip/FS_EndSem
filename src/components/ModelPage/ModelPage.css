@@ -1,0 +1,60 @@
+.ModelPage {
+    background-color: white; /* Background color for ModelPage container */
+    color: black; /* Text color */
+    /* Add other necessary styles */
+  }
+  
+  .contentWrapper {
+    display: flex;
+    height: 70vh; /* 70% of the viewport height */
+  }
+  
+  .leftColumn {
+    width: 30%;
+    background-color: #f0f0f0; /* Light grey background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Add padding */
+    /* Add other necessary styles */
+  }
+  
+  .rightColumn {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* Add other necessary styles */
+  }
+  
+  .modelDetails {
+    /* Style for model details section */
+    /* Add other necessary styles */
+  }
+  
+  .detailRow {
+    display: flex;
+    justify-content: space-between;
+    /* Style for each row in the model details section */
+    /* Add other necessary styles */
+  }
+  
+  .topRight {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px; /* Adjust spacing */
+    /* Styles for the top right section */
+  }
+  
+  .downloadButton {
+    background-color: black; /* Black button background */
+    color: white; /* White text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    padding: 8px 15px; /* Add padding */
+    cursor: pointer;
+    /* Add other necessary styles */
+  }
+  
+  .toggleContent {
+    /* Style for content area */
+    /* Add other necessary styles */
+  }
+  

@@ -1,0 +1,66 @@
+/* ExplorePage.css */
+
+.ExplorePage {
+    /* Style the ExplorePage container */
+    /* Add styles as needed */
+    height: 100vh; /* Set ExplorePage height to 100% of viewport height */
+  }
+  
+  .threeColumns {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .leftColumn {
+    width: 30%;
+    background-color: #f2f2f2; /* Grey background */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .middleColumn {
+    width: 50%;
+    background-color: white; /* White background */
+  }
+  
+  .rightColumn {
+    width: 20%;
+    background-color: #f2f2f2; /* Grey background */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styles for elements inside columns */
+  
+  .newModelButton {
+    /* Style for the New Model button */
+    /* Add styles as needed */
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .userModelsRectangularZone {
+    /* Style for the rectangular zone for User Models */
+    /* Add styles as needed */
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    flex-grow: 1; /* Extend zone to fill remaining height */
+  }
+  
+  .userDiscussionsRectangularZone {
+    /* Style for the rectangular zone for User Discussions */
+    /* Add styles as needed */
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    flex-grow: 1; /* Extend zone to fill remaining height */
+  }
+  

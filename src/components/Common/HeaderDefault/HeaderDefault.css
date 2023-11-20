@@ -1,0 +1,92 @@
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f0f0f0; /* Light grey background */
+  border-bottom: 1px solid #333; /* Dark grey border */
+}
+
+/* Logo styles */
+.logo {
+  width: 40px; /* Width of the circular container */
+  height: 40px; /* Height of the circular container */
+  border-radius: 50%; /* Ensure it's circular */
+  background-color: #333; /* Fallback color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Hide any content outside the circular container */
+  margin-right: 20px;
+}
+
+.logo img {
+  width: 100%; /* Ensure the image takes up the full container */
+  height: 100%; /* Ensure the image takes up the full container */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+/* Search bar styles */
+.search-bar {
+  flex-basis: 39%;
+  flex: 1;
+  outline: none; /* Remove outline */
+  border: none !important; /* Remove any existing border */
+}
+
+.search-bar input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid transparent; /* Set a transparent border */
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+
+
+
+/* Separator styles */
+.separator {
+  border-left: 1px solid #000000; /* Light grey border */
+  height: 30px;
+  margin-left: 5%;
+}
+
+/* Suggestions button styles */
+.suggestions-button {
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 5px;
+  padding: 12px 10px;
+  background-color: #999; /* Darker grey background */
+  color: #fff; /* White text */
+}
+
+/* Discussions button styles */
+.discussions-button {
+  border-radius: 5px;
+  text-align: center;
+  padding: 12px 10px;
+  background-color: #999; /* Darker grey background */
+  color: #fff; /* White text */
+}
+
+/* Login button styles */
+.login-button {
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+  padding: 10px 20px;
+  background-color: #999; /* Darker grey background */
+  color: #fff; /* White text */
+}
+
+/* Signup button styles */
+.signup-button {
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #999; /* Darker grey background */
+  color: #fff; /* White text */
+}

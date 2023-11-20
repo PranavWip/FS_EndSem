@@ -1,0 +1,60 @@
+/* Place this in your stylesheet or use CSS-in-JS */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.logo,
+.profile-logo {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.title {
+  flex-basis: 20%;
+}
+
+.search-bar-long {
+  padding: 8px; /* Adjusted padding */
+  margin: 0 10px;
+  border-radius: 15px; /* Rounded search bar */
+  border: none !important; /* Remove the outer border */
+  flex-grow: 1; /* Allows the search bar to take up remaining space */
+  max-width: 40%; /* Set a max-width to 40% */
+  width: auto; /* Allow the width to adjust based on content */
+}
+
+/* Style the input's border */
+.search-bar-long input[type="text"] {
+  border: none;
+  width: 100%;
+  padding: 14px 6px; /* Adjusted padding (vertical, horizontal) */
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+/* Styling for buttons */
+button {
+  padding: 8px 15px; /* Adjusted padding */
+  margin: 0 3px; /* Reduced margin between buttons */
+  border: none;
+  border-radius: 20px; /* More rounded buttons */
+  cursor: pointer;
+  background-color: #e0e0e0; /* Mild grey for buttons */
+  color: #444; /* Text color for buttons */
+  font-weight: bold;
+}
+
+.vertical-line {
+  height: 40px; /* Increased height of the vertical line */
+  border-left: 2px solid #aaa; /* Increased thickness */
+  margin: 0 10px;
+}
